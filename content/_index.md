@@ -50,41 +50,53 @@ sections:
   #     username: admin
   #   design:
   #     columns: '1'
-  # - block: experience
-  #   content:
-  #     title: Experience
-  #     # Date format for experience
-  #     #   Refer to https://docs.hugoblox.com/customization/#date-format
-  #     date_format: Jan 2006
-  #     # Experiences.
-  #     #   Add/remove as many `experience` items below as you like.
-  #     #   Required fields are `title`, `company`, and `date_start`.
-  #     #   Leave `date_end` empty if it's your current employer.
-  #     #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-  #     items:
-  #       - title: CEO
-  #         company: GenCoin
-  #         company_url: ''
-  #         company_logo: org-gc
-  #         location: California
-  #         date_start: '2021-01-01'
-  #         date_end: ''
-  #         description: |2-
-  #             Responsibilities include:
-
-  #             * Analysing
-  #             * Modelling
-  #             * Deploying
-  #       - title: Professor of Semiconductor Physics
-  #         company: University X
-  #         company_url: ''
-  #         company_logo: org-x
-  #         location: California
-  #         date_start: '2016-01-01'
-  #         date_end: '2020-12-31'
-  #         description: Taught electronic engineering and researched semiconductor physics.
-  #   design:
-  #     columns: '2'
+  - block: experience
+    content:
+      title: Experience
+      # Date format for experience
+      #   Refer to https://docs.hugoblox.com/customization/#date-format
+      date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many `experience` items below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: Walmart Global Tech
+          company: Software Development Engineer 2
+          company_url: ''
+          # company_logo: org-gc
+          location: Bangalore
+          date_start: '2022-07-23'
+          date_end: ''
+          # description: |2-
+          #     Responsibilities include:
+          #     * Developing an application responsible for handling global documents to facilitate interaction between multiple
+        - title: Akaike Technologies
+          company: Machine Learning Engineer Intern 
+          company_url: ''
+          # company_logo: org-x
+          location: Bangalore
+          date_start: '2021-11-22'
+          date_end: '2022-04-01'
+          # description: Designed a multi-layered approach to generate question-answer pairs from a large piece of text using transformer models
+        - title: Walmart Global Tech
+          company: Software Engineer Intern
+          company_url: ''
+          # company_logo: org-gc
+          location: Bangalore
+          date_start: '2021-05-20'
+          date_end: '2021-06-23'
+        - title: Autonomous Ground Vehicle (Autonomy and Intelligence) (AGV.AI)
+          company: Undergraduate Researcher
+          company_url: ''
+          # company_logo: org-x
+          location: IIT Kharagpur
+          date_start: '2021-11-22'
+          date_end: '2022-04-01'
+          # description: Deployed geometric steering methods Stanley and Pure-pursuit along with PID for path tracking in Mahindra E2O and implemented the Model Predictive Control (MPC) in Python using two Python-based optimization frameworks        
+    design:
+      columns: '2'
   # - block: accomplishments
   #   content:
   #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
@@ -98,14 +110,14 @@ sections:
   #     #   Leave other parameters empty if not required.
   #     #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
   #     items:
-  #       - certificate_url: https://www.coursera.org
+  #       - certificate_url: 'https://www.edx.org'
   #         date_end: ''
-  #         date_start: '2021-01-25'
-  #         description: ''
-  #         icon: coursera
-  #         organization: Coursera
-  #         organization_url: https://www.coursera.org
-  #         title: Neural Networks and Deep Learning
+  #         date_start: '2022-12-22'
+  #         description: 'Awarded Institute Gold Medal for being the best All-Rounder among all graduating students with bachelor’s degree'
+  #         icon: edx
+  #         organization: IIT Kharagpur
+  #         organization_url: 
+  #         title: Institute Gold Medal
   #         url: ''
   #       - certificate_url: https://www.edx.org
   #         date_end: ''
