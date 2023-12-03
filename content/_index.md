@@ -92,8 +92,8 @@ sections:
           company_url: ''
           # company_logo: org-x
           location: IIT Kharagpur
-          date_start: '2021-11-22'
-          date_end: '2022-04-01'
+          date_start: '2019-02-01'
+          date_end: '2020-09-30'
           # description: Deployed geometric steering methods Stanley and Pure-pursuit along with PID for path tracking in Mahindra E2O and implemented the Model Predictive Control (MPC) in Python using two Python-based optimization frameworks        
     design:
       columns: '2'
