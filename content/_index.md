@@ -65,9 +65,37 @@ sections:
     design:
       columns: '2'
       view: citation
+  - block: collection
+    id: awards
+    content:
+      title: Awards and Achievements 
+      subtitle: ''
+      text: ''
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 5
+      # Filter on criteria
+      filters:
+        folders:
+          - awards
+        # author: ""
+        # category: ""
+        # tag: ""
+        # exclude_featured: false
+        # exclude_future: false
+        # exclude_past: false
+        # publication_type: ""
+      # Choose how many pages you would like to offset by
+      offset: 0
+      # Page order: descending (desc) or ascending (asc) date.
+      order: desc
+    design:
+      # Choose a layout view
+      view: compact
+      columns: '2'
   - block: experience
     id: Experience
     content:
+      # count: 2
       title: Experience
       # Date format for experience
       #   Refer to https://docs.hugoblox.com/customization/#date-format
@@ -85,9 +113,11 @@ sections:
           location: Bangalore
           date_start: '2022-07-23'
           date_end: ''
-          # description: |2-
-          #     Responsibilities include:
-          #     * Developing an application responsible for handling global documents to facilitate interaction between multiple
+          description: |2- 
+              Domain: Software Engineering - Supply Chain
+              * Worked on applications handling receiving and inventory to facilitate operations across multiple distribution Centers
+              * Developed and deployed productions pipelines to deploy applications across 43 distribution centers situated across USA
+              * Developed micro-services and libraries with a tech stack: Golang, Java, SpringBoot, Python, Axon, Cassandra and Kafka
         - title: Akaike Technologies
           company: Machine Learning Engineer Intern 
           company_url: ''
@@ -95,7 +125,10 @@ sections:
           location: Bangalore
           date_start: '2021-11-22'
           date_end: '2022-04-01'
-          # description: Designed a multi-layered approach to generate question-answer pairs from a large piece of text using transformer models
+          description: |2- 
+              Domain: Question Answer Generation - Natural Language Processing
+              * Designed a multi-layered approach to generate question-answer pairs from a large piece of text using transformer models
+              * Reduced hallucinations made by the abstractive transformer-based sequence generating model using entailment technique
         - title: Walmart Global Tech
           company: Software Engineer Intern
           company_url: ''
@@ -103,6 +136,10 @@ sections:
           location: Bangalore
           date_start: '2021-05-20'
           date_end: '2021-06-23'
+          description: |2- 
+              Domain: Controls - Autonomous Vehicles, Robotics
+              * Worked on the team responsible for optimizing pick walks by solving a multi-layered travelling salesman problem heuristically
+              * Designed a Golang based automation suite capable of running multiple procedures with different configurations concurrently
         - title: Autonomous Ground Vehicle (Autonomy and Intelligence) (AGV.AI)
           company: Undergraduate Researcher
           company_url: ''
@@ -110,51 +147,98 @@ sections:
           location: IIT Kharagpur
           date_start: '2019-02-01'
           date_end: '2020-09-30'
-          # description: Deployed geometric steering methods Stanley and Pure-pursuit along with PID for path tracking in Mahindra E2O and implemented the Model Predictive Control (MPC) in Python using two Python-based optimization frameworks        
+          description: |2- 
+              Domain: Controls - Autonomous Vehicles, Robotics
+              * Implemented geometric steering methods such as Stanley and Pure-pursuit along with PID for path tracking for Mahindra E2O
+              * Implemented the Model Predictive Control (MPC) algorithm in python using two optimization frameworks: Gurobi and Casadi
+              * Modelled residual dynamics of the vehicle using Gaussian processes (GP) by generating training data from simulations        
     design:
       columns: '2'
-  # - block: accomplishments
-  #   content:
-  #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-  #     title: 'Accomplish&shy;ments'
-  #     subtitle:
-  #     # Date format: https://docs.hugoblox.com/customization/#date-format
-  #     date_format: Jan 2006
-  #     # Accomplishments.
-  #     #   Add/remove as many `item` blocks below as you like.
-  #     #   `title`, `organization`, and `date_start` are the required parameters.
-  #     #   Leave other parameters empty if not required.
-  #     #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-  #     items:
-  #       - certificate_url: 'https://www.edx.org'
-  #         date_end: ''
-  #         date_start: '2022-12-22'
-  #         description: 'Awarded Institute Gold Medal for being the best All-Rounder among all graduating students with bachelor’s degree'
-  #         icon: edx
-  #         organization: IIT Kharagpur
-  #         organization_url: 
-  #         title: Institute Gold Medal
-  #         url: ''
-  #       - certificate_url: https://www.edx.org
-  #         date_end: ''
-  #         date_start: '2021-01-01'
-  #         description: Formulated informed blockchain models, hypotheses, and use cases.
-  #         icon: edx
-  #         organization: edX
-  #         organization_url: https://www.edx.org
-  #         title: Blockchain Fundamentals
-  #         url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-  #       - certificate_url: https://www.datacamp.com
-  #         date_end: '2020-12-21'
-  #         date_start: '2020-07-01'
-  #         description: ''
-  #         icon: datacamp
-  #         organization: DataCamp
-  #         organization_url: https://www.datacamp.com
-  #         title: 'Object-Oriented Programming in R'
-  #         url: ''
-  #   design:
-  #     columns: '2'
+  - block: accomplishments
+    id: projects
+    content:
+      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+      title: 'Projects'
+      subtitle:
+      # Date format: https://docs.hugoblox.com/customization/#date-format
+      date_format: Jan 2006
+      # Accomplishments.
+      #   Add/remove as many `item` blocks below as you like.
+      #   `title`, `organization`, and `date_start` are the required parameters.
+      #   Leave other parameters empty if not required.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - certificate_url: ''
+          date_end: '2022-04-22'
+          date_start: '2021-08-22'
+          title: Legal Long Document Summarization
+          description: |2- 
+            Research Areas: Summarization - Natural language processing
+              * Developed abstractive and hybrid summarization methods for long legal documents sometimes containing > 20 thousand words
+              * Merged tree-based structures with classification based chunking to create summarization algorithms for long documents.
+              * Increased Rouge-L scores by incorporating legal expertise through a rhetorical role classifier within the summarization process.
+          icon: 
+          organization: IIT Kharagpur
+          organization_url: 
+          url: ''
+        - certificate_url: ''
+          date_end: '2022-04-22'
+          title: Legal Role Identification
+          date_start: '2021-08-22'
+          description: |2-
+            Adviser: Prof. Pawan Goyal & Prof. Saptarshi Ghosh
+              Research Areas: Named Entity Recognition - Natural Language Processing
+              - Developed an approach to extract and classify roles like counsel and witness from legal documents using transformer models
+              - Implemented a 2-step extraction model (F1 - 45.35) which outperformed standard NER models (F1 - 15.52)
+              - Modelled long-range dependencies, multiple contexts (occurrences) and references for a named entity in the court case document'
+          icon: 
+          organization: IIT Kharagpur
+          organization_url: 
+          url: ''
+        - certificate_url: ''
+          title: Detection of Language Bias in Wikipedia
+          date_end: '2022-04-22'
+          date_start: '2021-08-22'
+          description: |2-
+            Course Term Project - Adviser: Prof. Animesh Mukherjee
+              Research Areas: Classification - Natural language processing
+              - Developed a novel approach to detect lingual bias in sentences for maintaining Neutral Point of View policy in Wikipedia articles
+              - Implemented five transformer based classification models (BERT, RoBERTa, and XLNet) with F1 scores between 65% - 75%
+              - Increased F1 score to 83 % by devising a novel weighted ensemble approach on our baselines using differential evolution algorithm'
+          icon: 
+          organization: IIT Kharagpur
+          organization_url: 
+          url: ''
+        - certificate_url: ''
+          date_end: '2022-04-22'
+          title: Evolutionary Neural Networks for Sequential Problem Optimization
+          date_start: '2021-08-22'
+          description: |2-
+            Adviser - Prof. Nirupam Chakraborti
+              Research Areas: Genetic Algorithms, Optimization, Neural Networks
+              - Developed self-evolving Neural Networks along with genetic operators to heuristically solve Travelling Salesman Problem
+              - Formulated a bi-objective cost function aimed at concurrently minimizing tour expenses and simplifying model complexity
+              - Implemented island-based genetic model combining Predator-Prey with ACO for concurrent use of multiple evolutionary algorithms'
+          icon: 
+          organization: IIT Kharagpur
+          organization_url: 
+          url: ''
+        - certificate_url: ''
+          title: DIC Terrace Farming Robot, 8th Inter-IIT Tech Meet
+          date_end: '2022-04-22'
+          date_start: '2021-08-22'
+          description: |2-
+            Adviser - Prof. Aditya Bandopadhyay
+              Research Areas: Robotics
+              - Configured linux systems and Arduinos with Robot Operating System, enabling the robot to execute autonomous missions.
+              - Worked on stabilizing mechanical movements of the robot for stair climbing and traversal over uneven terrain
+              - Responsible for software integration of electronic components, pitch control, path tracking control, and mission planner'
+          icon: 
+          organization: IIT Kharagpur
+          organization_url: 
+          url: ''
+    design:
+      columns: '2'
   # - block: collection
   #   id: posts
   #   content:
@@ -209,14 +293,15 @@ sections:
   #     view: showcase
   #     # For Showcase view, flip alternate rows?
   #     flip_alt_rows: false
-  # - block: markdown
-  #   content:
-  #     title: Gallery
-  #     subtitle: ''
-  #     text: |-
-  #       {{< gallery album="demo" >}}
-  #   design:
-  #     columns: '1'
+  - block: markdown
+    id: gallery
+    content:
+      title: Gallery
+      subtitle: ''
+      text: |-
+        {{< gallery album="demo" >}}
+    design:
+      columns: '1'
   # - block: collection
   #   id: featured
   #   content:

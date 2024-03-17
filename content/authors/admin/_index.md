@@ -32,6 +32,7 @@ interests:
   - Artificial Intelligence
   - Natural Language Processing
   - Robotics
+  - Software Engineering
 
 # Education to show in About widget
 education:
@@ -119,7 +120,5 @@ highlight_name: true
 
 I am a driven and motivated engineer/researcher with a strong background in Industrial Engineering and Computer Science. As a gold medallist from IIT Kharagpur, I have consistently excelled academically and have had the opportunity to work on numerous projects in the fields of AI, autonomous driving, and robotics. My contributions to technology have been recognized with various awards, including the IIT Kharagpur Institute Order of Merit and the Medury Bhanumurthy Memorial Prize.
 
-In 2020, I was an all-India winner of the Smart India Hackathon and have consistently represented IIT Kharagpur at multiple competitions, ranking among the top students. My work in the field has been published at top international conferences, demonstrating my dedication to staying up-to-date on the latest advancements in technology.
-
-Currently, I am employed at Walmart Global Tech as a software developer, where I leverage my skills and knowledge to drive innovation and make a positive impact on the company. I am always looking for opportunities to challenge myself and continue learning in this dynamic and exciting field.
+I am an all-India winner of the Smart India Hackathon and have consistently represented IIT Kharagpur at multiple competitions, ranking among the top students. My work in the field has been published at top international conferences and I am currently employed at Walmart Global Tech as a software developer, where I leverage my skills and knowledge to drive innovation and make a positive impact on the company. I am always looking for opportunities to challenge myself and continue learning in this dynamic and exciting field.
 {style="text-align: justify;"}
