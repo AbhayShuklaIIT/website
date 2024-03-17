@@ -1,28 +1,29 @@
 ---
-title: 'Legal Case Document Summarization: Extractive and Abstractive Methods and their Evaluation'
+title: ' Design of an All-Purpose Terrace Farming Robot'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
+  - Vibhakar Mohta
+  - Adarsh Patnaik
+  - Shivam Kumar Panda
+  - Siva Vignesh Krishnan
+  - Abhinav Gupta
   - admin
-  - Paheli Bhattacharya
-  - Soham Poddar
-  - Rajdeep Mukherjee
-  - Kripabandhu Ghosh
-  - Pawan Goyal
-  - Saptarshi Ghosh1
-
+  - Gauri Wadhwa
+  - Shrey Verma
+  - Aditya Bandopadhyay
 # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2022-10-01T00:00:00Z'
+date: '2022-09-01T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2022-10-01T00:00:00Z'
+publishDate: '2022-09-01T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -30,10 +31,10 @@ publishDate: '2022-10-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In the 2nd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 12th International Joint Conference on Natural Language Processing (AACL-IJCNLP), 2022
-publication_short: In *AACL-IJCNLP-2022*
+publication: In the 18th IEEE/ASME International Conference on Mechatronic and Embedded Systems and Applications (MESA) 2022
+publication_short: In *IEEE/ASME MESA 2022*
 
-abstract: Summarization of legal case judgement documents is a challenging problem in Legal NLP. However, not much analyses exist on how different families of summarization models (e.g., extractive vs. abstractive) perform when applied to legal case documents. This question is particularly important since many recent transformer-based abstractive summarization models have restrictions on the number of input tokens, and legal documents are known to be very long. Also, it is an open question on how best to evaluate legal case document summarization systems. In this paper, we carry out extensive experiments with several extractive and abstractive summarization methods (both supervised and unsupervised) over three legal summarization datasets that we have developed. Our analyses, that includes evaluation by law practitioners, lead to several interesting insights on legal summarization in specific and long document summarization in general.
+abstract: Automation in farming processes is a growing field of research in both academia and industries. A considerable amount of work has been put into this field to develop systems robust enough for farming. Terrace farming, in particular, provides a varying set of challenges, including reliable step climbing methods and stable navigation in unstructured terrains. We propose the design of a novel autonomous terrace farming robot, 'Aarohi’, that can effectively climb steep terraces of considerable heights. The design optimisation strategy for the overall mechanical structure is elucidated. Further, the embedded and software architecture are presented for a working prototype. The navigation strategy for autonomous traversal over the terrace steps using the scissor lift mechanism has also been discussed along with the experimental results for the controller. The adaptability of the design to specific operational requirements and modular farm tools allow 'Aarohi’ to be customised for a wide variety of use cases.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -48,8 +49,8 @@ tags: []
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/pdf/2210.07544.pdf'
-url_code: 'https://github.com/law-ai/summarization'
+url_pdf: 'https://ieeexplore.ieee.org/document/10004400'
+# url_code: 'https://github.com/law-ai/summarization'
 url_dataset: ''
 url_poster: ''
 url_project: ''
