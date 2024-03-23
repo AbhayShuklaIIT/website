@@ -65,32 +65,93 @@ sections:
     design:
       columns: '2'
       view: citation
-  - block: collection
+  # - block: collection
+  #   id: awards1
+  #   content:
+  #     title: Awards and Achievements 
+  #     subtitle: ''
+  #     text: ''
+  #     # Choose how many pages you would like to display (0 = all pages)
+  #     count: 5
+  #     # Filter on criteria
+  #     filters:
+  #       folders:
+  #         - awards
+  #       # author: ""
+  #       # category: ""
+  #       # tag: ""
+  #       # exclude_featured: false
+  #       # exclude_future: false
+  #       # exclude_past: false
+  #       # publication_type: ""
+  #     # Choose how many pages you would like to offset by
+  #     offset: 0
+  #     # Page order: descending (desc) or ascending (asc) date.
+  #     order: desc
+  #   design:
+  #     # Choose a layout view
+  #     view: compact
+  #     columns: '2'
+  - block: accomplishments
     id: awards
     content:
-      title: Awards and Achievements 
-      subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        folders:
-          - awards
-        # author: ""
-        # category: ""
-        # tag: ""
-        # exclude_featured: false
-        # exclude_future: false
-        # exclude_past: false
-        # publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
+      # count: 2
+      title: Awards and Achievements
+      # Date format for experience
+      #   Refer to https://docs.hugoblox.com/customization/#date-format
+      date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many `experience` items below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+          - certificate_url: ''
+            # date_end: '2022-04-22'
+            date_start: '2022-12-23'
+            title: Dr. B. C. Roy Memorial Gold Medal
+            description: Awarded the distinction of ’Best All-Rounder’ among all graduating students of all B.Tech (Hons.) and B.Arch (Hons.) courses
+            icon: 
+            organization: IIT Kharagpur
+            organization_url: 
+            url: ''
+          - certificate_url: ''
+            # date_end: '2022-04-22'
+            date_start: '2022-12-23'
+            title: Institute Order of Merit
+            description: Acknowledged for exceptional performance in the field of technology during my bachelor’s degree program
+            icon: 
+            organization: IIT Kharagpur
+            organization_url: 
+            url: ''
+          - certificate_url: ''
+            # date_end: '2022-04-22'
+            date_start: '2022-12-23'
+            title: Medury Bhanumurthy Memorial Prize
+            description: Awarded as the top performer in extra-curricular activities among all Bachelor of Technology (Honors) students
+            icon: 
+            organization: IIT Kharagpur
+            organization_url: 
+            url: ''
+          - certificate_url: ''
+            # date_end: '2022-04-22'
+            date_start: '2021-01-22'
+            title: Smart India Hackathon
+            description: National Winner | Secured First Position at All India Level in Smart India Hackathon by making an AI enabled robotic trash boat
+            icon: 
+            organization: IIT Kharagpur
+            organization_url: 
+            url: ''
+          - certificate_url: ''
+            # date_end: '2022-04-22'
+            date_start: '2019-12-22'
+            title: DIC Terrace Farming Robot | 8th Inter-IIT Tech Meet
+            description: National Winner | Among the top 50 students to represent IIT Kharagpur. Secured 1st position in my event and stood 2nd among 20 other IITs
+            icon: 
+            organization: IIT Kharagpur
+            organization_url: 
+            url: ''
     design:
-      # Choose a layout view
-      view: compact
       columns: '2'
   - block: experience
     id: Experience

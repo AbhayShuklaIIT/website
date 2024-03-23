@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Abhay Shukla</title>
+    <link>http://localhost:1313/awards-copy/</link>
+      <atom:link href="http://localhost:1313/awards-copy/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 23 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Posts</title>
+      <link>http://localhost:1313/awards-copy/</link>
+    </image>
+    
+    <item>
+      <title>Dr. B. C. Roy Memorial Gold Medal</title>
+      <link>http://localhost:1313/awards-copy/blog-with-jupyter/</link>
+      <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/awards-copy/blog-with-jupyter/</guid>
+      <description>&lt;!-- ```python
+from IPython.core.display import Image
+Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
+``` --&gt;
+&lt;!-- ![png](output_1_0.png) --&gt;
+&lt;!-- ```python
+print(&#34;Welcome to Academic!&#34;)
+```
+
+    Welcome to Academic!
+
+## Organize your notebooks
+
+Place the notebooks that you would like to publish in a `notebooks` folder at the root of your website.
+
+## Import the notebooks into your site
+
+```bash
+pipx install academic
+academic import &#39;notebooks/**.ipynb&#39; content/post/ --verbose
+```
+
+The notebooks will be published to the folder you specify above. In this case, they will be published to your `content/post/` folder. --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Institute Order of Merit</title>
+      <link>http://localhost:1313/awards-copy/blog-with-jupyter-copy/</link>
+      <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/awards-copy/blog-with-jupyter-copy/</guid>
+      <description>&lt;!-- ```python
+from IPython.core.display import Image
+Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
+``` --&gt;
+&lt;!-- ![png](output_1_0.png) --&gt;
+&lt;!-- ```python
+print(&#34;Welcome to Academic!&#34;)
+```
+
+    Welcome to Academic!
+
+## Organize your notebooks
+
+Place the notebooks that you would like to publish in a `notebooks` folder at the root of your website.
+
+## Import the notebooks into your site
+
+```bash
+pipx install academic
+academic import &#39;notebooks/**.ipynb&#39; content/post/ --verbose
+```
+
+The notebooks will be published to the folder you specify above. In this case, they will be published to your `content/post/` folder. --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Medury Bhanumurthy Memorial Prize</title>
+      <link>http://localhost:1313/awards-copy/blog-with-jupyter-copy-2/</link>
+      <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/awards-copy/blog-with-jupyter-copy-2/</guid>
+      <description>&lt;!-- ```python
+from IPython.core.display import Image
+Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
+``` --&gt;
+&lt;!-- ![png](output_1_0.png) --&gt;
+&lt;!-- ```python
+print(&#34;Welcome to Academic!&#34;)
+```
+
+    Welcome to Academic!
+
+## Organize your notebooks
+
+Place the notebooks that you would like to publish in a `notebooks` folder at the root of your website.
+
+## Import the notebooks into your site
+
+```bash
+pipx install academic
+academic import &#39;notebooks/**.ipynb&#39; content/post/ --verbose
+```
+
+The notebooks will be published to the folder you specify above. In this case, they will be published to your `content/post/` folder. --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>National Winner | Smart India Hackathon</title>
+      <link>http://localhost:1313/awards-copy/blog-with-jupyter-copy-3/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/awards-copy/blog-with-jupyter-copy-3/</guid>
+      <description>&lt;!-- ```python
+from IPython.core.display import Image
+Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
+``` --&gt;
+&lt;!-- ![png](output_1_0.png) --&gt;
+&lt;!-- ```python
+print(&#34;Welcome to Academic!&#34;)
+```
+
+    Welcome to Academic!
+
+## Organize your notebooks
+
+Place the notebooks that you would like to publish in a `notebooks` folder at the root of your website.
+
+## Import the notebooks into your site
+
+```bash
+pipx install academic
+academic import &#39;notebooks/**.ipynb&#39; content/post/ --verbose
+```
+
+The notebooks will be published to the folder you specify above. In this case, they will be published to your `content/post/` folder. --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>National Winner | DIC Terrace Farming Robot | 8th Inter-IIT Tech Meet</title>
+      <link>http://localhost:1313/awards-copy/blog-with-jupyter-copy-4/</link>
+      <pubDate>Wed, 25 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/awards-copy/blog-with-jupyter-copy-4/</guid>
+      <description>&lt;!-- ```python
+from IPython.core.display import Image
+Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
+``` --&gt;
+&lt;!-- ![png](output_1_0.png) --&gt;
+&lt;!-- ```python
+print(&#34;Welcome to Academic!&#34;)
+```
+
+    Welcome to Academic!
+
+## Organize your notebooks
+
+Place the notebooks that you would like to publish in a `notebooks` folder at the root of your website.
+
+## Import the notebooks into your site
+
+```bash
+pipx install academic
+academic import &#39;notebooks/**.ipynb&#39; content/post/ --verbose
+```
+
+The notebooks will be published to the folder you specify above. In this case, they will be published to your `content/post/` folder. --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
